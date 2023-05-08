@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red{
+    color: red;
+}
+
+.avocado{
+    color: #568203
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+
+.home .title{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding-left: 15px;
+}
+
+.home .subtitle {
+    font-size: 1.3em;
+    color: red;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+}
+
+.imageBox img {
+    height: 600px;
+}
